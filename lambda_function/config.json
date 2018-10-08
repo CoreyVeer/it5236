@@ -1,6 +1,6 @@
 {
 	"dbhost" 	 : "it5236dbinstance.cyukxz7w5vcp.us-east-2.rds.amazonaws.com",
 	"dbuser" 	 : "root",
-	"dbpassword" : "FsT-gLd1",
+	"dbpassword"     : "FsT-gLd1",
 	"dbname" 	 : "it5236"
 }
