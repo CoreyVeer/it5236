@@ -71,12 +71,11 @@ if (isset($_GET['register']) && $_GET['register']== 'success') {
 
 <body>
 	<?php include 'include/header.php'; ?>
-
+	<div class="field">
 	<h2>Login</h2>
 
 	<?php include('include/messages.php'); ?>
 
-	<div class="input">
 		<form method="post" action="login.php">
 
 			<input type="text" name="username" id="username" placeholder="Username" value="<?php echo $username; ?>" />
@@ -87,10 +86,10 @@ if (isset($_GET['register']) && $_GET['register']== 'success') {
 
 			<input type="submit" value="Login" name="login" />
 		</form>
-	</div>
 	<a href="register.php">Need to create an account?</a>
 	<br/>
 	<a href="reset.php">Forgot your password?</a>
+	</div>
 	<?php include 'include/footer.php'; ?>
 	<script src="js/site.js"></script>
 </body>
