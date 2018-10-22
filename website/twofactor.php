@@ -45,6 +45,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 	<form method="post" action="twofactor.php">
 		<input type="text" name="validaitoncode" id="validationcode" placeholder="Enter validation ID" value="<?php echo $validationid; ?>" />
 		<br/>
+
+		<input type="submit" value="Login" />
 	</form>
 	</div>
 
