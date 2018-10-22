@@ -130,7 +130,7 @@ class Application {
 
               // Create a new user ID
               $userid = bin2hex(random_bytes(16));
-  			$url = "https://zcz3dwfpn5.execute-api.us-east-1.amazonaws.com/default/registeruser";
+  			$url = "https://dcpf8ssb1a.execute-api.us-east-2.amazonaws.com/default/registeruser";
   			$data = array(
   				'userid'=>$userid,
   				'username'=>$username,
