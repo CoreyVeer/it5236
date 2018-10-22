@@ -65,9 +65,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			<br/>
 			<input type="password" name="password" id="password" placeholder="Provide a password" value="<?php echo $password; ?>" />
 			<br/>
-			<input type="text" name="email" id="email" placeholder="Enter your email address" size="50" value="<?php echo $email; ?>" />
+			<input type="text" name="email" id="email" placeholder="Enter your email address" value="<?php echo $email; ?>" />
 			<br/>
-			<input type="text" name="registrationcode" id="registrationcode" placeholder="Enter the registration code provided by your instructor" size="35" value="<?php echo $registrationcode; ?>" />
+			<input type="text" name="registrationcode" id="registrationcode" placeholder="Enter the registration code provided by your instructor" value="<?php echo $registrationcode; ?>" />
 			<br/>
 			<input type="submit" value="Register" />
 		</form>
