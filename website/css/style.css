@@ -166,6 +166,10 @@ div.intro {
 	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
 }
 
+div.intro p a {
+	text-decoration: none;
+}
+
 div.name {
 	float: right;
 	display: block;
