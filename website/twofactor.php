@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
 <body>
 	<?php include 'include/header.php'; ?>
-	<!--<div class="field">
+	<div class="field">
 	<h2>Validate Login</h2>
 	<p>Check your email for the Validation ID</p>
 	<form method="post" action="twofactor.php">
@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
 		<input type="submit" value="Login" />
 	</form>
-</div>-->
+</div>
 
 	<?php include 'include/footer.php'; ?>
 	<script src="js/site.js"></script>
