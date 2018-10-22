@@ -47,7 +47,7 @@
 			&nbsp;&nbsp;
 			<li><a href="logout.php">Logout</a></li>
 			&nbsp;&nbsp;
-			<li><p>IT 5236</p></li>
+			<li style="float:right;">IT 5236</li>
 
 		<?php } ?>
 	</ul>
