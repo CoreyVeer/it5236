@@ -341,7 +341,7 @@ class Application {
                       $this->auditlog("processEmailValidation", "Email address validated: $validationid");
 
                       // Construct a SQL statement to perform the insert operation
-                      $sql = "UPDATE users SET emailValidation = 1 WHERE userid = :userid";
+                      $sql = "UPDATE users SET emailvalidated = 1 WHERE userid = :userid";
 
                       // Run the SQL select and capture the result code
                       $stmt = $dbh->prepare($sql);
