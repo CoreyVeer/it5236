@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			<br/>
 			<input type="text" name="email" id="email" placeholder="Enter your email address" value="<?php echo $email; ?>" />
 			<br/>
-			<input type="text" name="registrationcode" id="registrationcode" placeholder="Enter the registration code provided by your instructor" value="<?php echo $registrationcode; ?>" />
+			<input type="text" name="registrationcode" id="registrationcode" placeholder="Enter registration code" value="<?php echo $registrationcode; ?>" />
 			<br/>
 			<input type="submit" value="Register" />
 		</form>
