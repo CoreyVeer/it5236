@@ -30,12 +30,12 @@ div.nav li a {
 	text-decoration: none;
 }
 
-div.nav li a:hover {
+div.nav li a:active {
 	background-color: #111;
 }
 
-div.nav li a:active {
-	background-color: grey;
+div.nav li a:hover {
+	background-color: #111;
 }
 
 ul.things {
