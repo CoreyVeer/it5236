@@ -180,5 +180,8 @@ div.field {
 	margin: auto;
 	width: 400px;
 	padding: 10px;
+}
+
+div.field a {
 	text-decoration: none;
 }
