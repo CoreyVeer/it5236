@@ -20,6 +20,7 @@ div.nav ul {
 
 div.nav li {
 	float: center;
+	display: block;
 }
 
 div.nav li a {
@@ -121,9 +122,7 @@ p.footer {
 	position: absolute;
   bottom: 0;
 	width: 100%;
-	margin: 0;
-  padding: 0;
-  overflow: hidden;
+	padding: 15px 14px
 }
 
 @media only screen and (min-width: 800px) {
