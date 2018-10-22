@@ -24,12 +24,14 @@ $errors = array();
 </head>
 <body>
 	<?php include 'include/header.php'; ?>
+	<div class="intro">
 	<h2>Mobile Web Infrastructure</h2>
 	<p>
 		This is a bare-bones "list-oriented" web application for use in IT 5236, to teach mobile web infrastructure concepts.
 		Students currently registered for the course may <a href="login.php">create an account</a> or proceed directly to the
 		<a href="login.php">login page</a>.
 	</p>
+</div>
 	<?php include 'include/footer.php'; ?>
 	<script src="js/site.js"></script>
 </body>
