@@ -76,7 +76,7 @@ if (isset($_GET['register']) && $_GET['register']== 'success') {
 
 	<?php include('include/messages.php'); ?>
 
-	<div>
+	<div class="input">
 		<form method="post" action="login.php">
 
 			<input type="text" name="username" id="username" placeholder="Username" value="<?php echo $username; ?>" />
