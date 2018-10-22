@@ -19,7 +19,7 @@ div.nav ul {
 }
 
 div.nav li {
-	float: left;
+	float: right;
 }
 
 div.nav li a {
@@ -156,4 +156,8 @@ div.message {
 
 div.newattachmenttype {
 	background-color: #ccffcc;
+}
+
+p.index {
+	background-color: white;
 }
