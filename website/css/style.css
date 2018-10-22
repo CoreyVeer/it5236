@@ -110,9 +110,12 @@ input[type="submit"] {
 }
 
 p.footer {
-	margin-top: 50px;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 	background-color: #333;
-	color: #FFFFFF;
 }
 
 @media only screen and (min-width: 800px) {
