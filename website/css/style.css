@@ -19,7 +19,7 @@ div.nav ul {
 }
 
 div.nav li {
-	float: right;
+	float: center;
 }
 
 div.nav li a {
@@ -116,12 +116,14 @@ p.footer {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
 	text-decoration: none;
 	background-color: #333;
 	position: absolute;
   bottom: 0;
 	width: 100%;
+	margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 800px) {
@@ -160,4 +162,5 @@ div.newattachmenttype {
 
 div.intro {
 	background-color: rgba(255, 255, 255, 0.3);
+	padding: 15px;
 }
