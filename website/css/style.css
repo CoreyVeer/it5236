@@ -22,6 +22,10 @@ div.nav li {
 	float: left;
 }
 
+div.nav li p {
+	float: right;
+}
+
 div.nav li a {
 	display: block;
 	color: white;
