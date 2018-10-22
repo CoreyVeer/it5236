@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	if ($result == TRUE) {
 
 		// Redirect the user to the topics page on success
-		header("Location: twofactor.php");
+		header("Location: list.php");
 		exit();
 
 	}
