@@ -162,3 +162,12 @@ div.intro {
 	background-color: rgba(255, 255, 255, 0.3);
 	padding: 15px;
 }
+
+div.name {
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
