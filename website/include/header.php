@@ -46,12 +46,11 @@
 			<li><a href="fileviewer.php?file=include/help.txt">Help</a></li>
 			&nbsp;&nbsp;
 			<li><a href="logout.php">Logout</a></li>
-			&nbsp;&nbsp;
-			<div class="name">
-				<li>IT 5236</li>
-			</div>
-
+			&nbsp;&nbsp
 		<?php } ?>
+		<div class="name">
+			<li>IT 5236</li>
+		</div>
 	</ul>
 	</div>
 	<h1></h1>
