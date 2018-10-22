@@ -3,11 +3,11 @@
 	// Assume the user is not logged in and not an admin
 	$isadmin = FALSE;
 	$loggedin = FALSE;
-	
+
 	// If we have a session ID cookie, we might have a session
 	if (isset($_COOKIE['sessionid'])) {
-		
-		$user = $app->getSessionUser($errors); 
+
+		$user = $app->getSessionUser($errors);
 		$loggedinuserid = $user["userid"];
 
 		// Check to see if the user really is logged in and really is an admin
@@ -25,28 +25,30 @@
 
 ?>
 	<div class="nav">
-		<a href="index.php">Home</a>
+		<ul>
+		<li><a href="index.php">Home</a></li>
 		&nbsp;&nbsp;
 		<?php if (!$loggedin) { ?>
-			<a href="login.php">Login</a>
+			<li><a href="login.php">Login</a></li>
 			&nbsp;&nbsp;
-			<a href="register.php">Register</a>
+			<li><a href="register.php">Register</a></li>
 			&nbsp;&nbsp;
 		<?php } ?>
 		<?php if ($loggedin) { ?>
-			<a href="list.php">List</a>
+			<li><a href="list.php">List</a></li>
 			&nbsp;&nbsp;
-			<a href="editprofile.php">Profile</a>
+			<li><a href="editprofile.php">Profile</a></li>
 			&nbsp;&nbsp;
 			<?php if ($isadmin) { ?>
-				<a href="admin.php">Admin</a>
+				<li><a href="admin.php">Admin</a></li>
 				&nbsp;&nbsp;
 			<?php } ?>
-			<a href="fileviewer.php?file=include/help.txt">Help</a>
+			<li><a href="fileviewer.php?file=include/help.txt">Help</a></li>
 			&nbsp;&nbsp;
-			<a href="logout.php">Logout</a>
+			<li><a href="logout.php">Logout</a></li>
 			&nbsp;&nbsp;
 
 		<?php } ?>
+	</ul>
 	</div>
 	<h1>IT 5236</h1>
