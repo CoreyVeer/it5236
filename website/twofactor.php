@@ -44,10 +44,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 	<h2>Validate Login</h2>
 	<p>Check your email for the Validation Code</p>
 	<form method="get" action="twofactor.php">
-		<input type="text" name="validaitonid" id="validationcode" placeholder="Enter validation code" size="35" value="" />
+		<input type="text" name="id" id="validationcode" placeholder="Enter validation code" size="35" value="" />
 		<br/>
 
-		<input type="submit" value="Login" />
+		<input type="submit" name ="login" value="Login" />
 	</form>
 </div>
 
