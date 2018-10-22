@@ -42,9 +42,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 	<?php include 'include/header.php'; ?>
 	<div class="field">
 	<h2>Validate Login</h2>
-	<p>Check your email for the Validation ID</p>
+	<p>Check your email for the Validation Code</p>
 	<form method="post" action="twofactor.php">
-		<input type="text" name="validaitoncode" id="validationcode" placeholder="Enter validation ID" size="35" value="<?php echo $validationid; ?>" />
+		<input type="text" name="validaitoncode" id="validationcode" placeholder="Enter validation code" size="35" value="<?php echo $validationid; ?>" />
 		<br/>
 
 		<input type="submit" value="Login" />
