@@ -34,6 +34,10 @@ div.nav li a:hover {
 	background-color: #111;
 }
 
+div.nav li a:active {
+	background-color: grey;
+}
+
 ul.things {
 	padding-left: 10px;
 }
@@ -184,4 +188,5 @@ div.field {
 
 div.field a {
 	text-decoration: none;
+	color: black;
 }
