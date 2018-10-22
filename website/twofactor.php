@@ -40,6 +40,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
 <body>
 	<?php include 'include/header.php'; ?>
+	<div class="field">
+	<h2>Validate Login</h2>
+	<form method="post" action="twofactor.php">
+		<input type="text" name="validaitoncode" id="validationcode" placeholder="Enter validation ID" value="<?php echo $validationid; ?>" />
+		<br/>
+	</form>
+	</div>
 
 	<?php include 'include/footer.php'; ?>
 	<script src="js/site.js"></script>
