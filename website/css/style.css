@@ -19,8 +19,7 @@ div.nav ul {
 }
 
 div.nav li {
-	float: center;
-	display: block;
+	float: left;
 }
 
 div.nav li a {
@@ -121,8 +120,8 @@ p.footer {
 	background-color: #333;
 	position: absolute;
   bottom: 0;
-	width: 100%;
-	padding: 15px 14px
+	width: auto;
+	padding: 15px 14px;
 }
 
 @media only screen and (min-width: 800px) {
