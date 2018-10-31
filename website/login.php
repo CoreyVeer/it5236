@@ -76,7 +76,7 @@ if (isset($_GET['register']) && $_GET['register']== 'success') {
 
 	<?php include('include/messages.php'); ?>
 
-		<form method="post" action="login.php">
+		<form id="loginForm" method="post" action="login.php">
 
 			<input type="text" name="username" id="username" placeholder="Username" value="<?php echo $username; ?>" />
 			<br/>
@@ -87,7 +87,7 @@ if (isset($_GET['register']) && $_GET['register']== 'success') {
 			Save username?<input type="checkbox" name="saveLocal" id="saveLocal">
 			<br/>
 
-			<input type="submit" value="Login" name="login" />
+			<input type="submit" value="Login" name="submit" />
 		</form>
 	<a href="register.php">Need to create an account?</a>
 	<br/>
