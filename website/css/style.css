@@ -2,7 +2,7 @@ body {
 	background: url('images/background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 15px;
+	height: 98vh;
 }
 
 /*div.nav {
@@ -121,9 +121,10 @@ p.footer {
 	background-color: #333;
 	position: absolute;
   bottom: 0;
-	width: 97%;
+	width: calc(97% - 30px);
 	padding: 15px 14px;
 	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+	clear: both;
 }
 
 @media only screen and (min-width: 800px) {
