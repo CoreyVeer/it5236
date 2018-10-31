@@ -95,6 +95,6 @@ if (isset($_GET['register']) && $_GET['register']== 'success') {
 	</div>
 	<?php include 'include/footer.php'; ?>
 	<script src="js/site.js"></script>
-	<script type="text/javascript" src="js/localStorage.js"></script>
+	<script src="js/localStorage.js"></script>
 </body>
 </html>
