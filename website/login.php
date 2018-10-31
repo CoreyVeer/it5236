@@ -86,7 +86,7 @@ if (isset($_GET['register']) && $_GET['register']== 'success') {
 
 			Save username?<input type="checkbox" name="saveLocal" id="saveLocal">
 			<br/>
-			
+
 			<input type="submit" value="Login" name="login" />
 		</form>
 	<a href="register.php">Need to create an account?</a>
@@ -95,5 +95,6 @@ if (isset($_GET['register']) && $_GET['register']== 'success') {
 	</div>
 	<?php include 'include/footer.php'; ?>
 	<script src="js/site.js"></script>
+	<script type="text/javascript" src="js/localStorage.js"></script>
 </body>
 </html>
