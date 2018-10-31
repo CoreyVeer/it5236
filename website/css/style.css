@@ -121,7 +121,7 @@ p.footer {
 	background-color: #333;
 	position: absolute;
   bottom: 0;
-	width: calc(97% - 30px);
+	width: calc(99% - 30px);
 	padding: 15px 14px;
 	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
 	clear: both;
